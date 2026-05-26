@@ -294,8 +294,3 @@ BUILD SUCCESS
 
 ---
 
-## Resume Context
-
-This project was built to demonstrate familiarity with **AutoRABIT's CodeScan** product, which performs static analysis on Salesforce Apex and Java codebases as part of a DevSecOps pipeline. CodeScan surfaces the same categories of issues — unused code, complexity violations, documentation gaps — and integrates with CI/CD pipelines using the same exit-code convention implemented here.
-
-The architecture (pluggable rule interface, immutable issue model, decoupled reporter) reflects the design patterns used in production static analysis tools like SonarQube, PMD, and Checkstyle.
